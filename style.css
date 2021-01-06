@@ -26,6 +26,16 @@ h1 {
     line-height: 15px;
 }
 
+h2 {
+    color: slateblue;
+    letter-spacing: 3px;
+}
+
+h4 {
+    color: slateblue;
+    letter-spacing: 5px;
+}
+
 span {
     color: slateblue;
 }
@@ -80,7 +90,7 @@ span {
     background-color: white;
     box-shadow: -3px 3px 15px lightgray;
     border-bottom: 5px solid;
-    border-image: linear-gradient(180deg, slateblue, blue);
+    border-image: linear-gradient(45deg, slateblue, tomato);
     border-image-slice: 1;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -91,8 +101,27 @@ span {
 }
 
 /* this is creative section for bonus marks */
+.service-part {
+    height: 400px;
+}
 
-/* this the last section */
+.service-width {
+    width: 30%;
+    float: left;
+    margin: 7% 0 0 15%;
+    text-align: right;
+
+}
+
+.service-description {
+    text-align: left;
+    margin-bottom: 10px;
+    background-image: linear-gradient(218deg, white, rgb(193, 172, 219));
+    padding: 5px 0 5px 30px;
+    border-radius: 10px;
+}
+
+/* this is the last section */
 
 .bottom-section {
     height: 300px;
@@ -109,8 +138,21 @@ span {
 }
 
 .inquiry-part {
-    padding-top: 146px;
+    padding-top: 141px;
     padding-left: 404px;
+}
+
+#chat-link {
+    padding: 15px 20px;
+    box-shadow: -3px 3px 20px tomato;
+    border-radius: 40%;
+}
+
+/* footer part */
+.footer-align {
+    text-align: center;
+    color: slateblue;
+    letter-spacing: 10px;
 }
 
 /* done */
