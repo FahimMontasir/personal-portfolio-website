@@ -3,17 +3,24 @@ body {
     margin: 0;
     font-family: 'Bebas Neue', cursive;
 }
+
 a {
     color: white;
     text-decoration: none;
     box-shadow: -3px 3px 15px lightgray;
+    background-image: linear-gradient(45deg, slateblue, blue);
+    padding: 6px 15px;
+    border-radius: 4px;
 }
+
 img {
     width: 100%;
 }
+
 p {
     color: grey;
 }
+
 h1 {
     font-size: 50px;
     line-height: 15px;
@@ -28,35 +35,42 @@ span {
 .color-highlight {
     color: slateblue;
 }
+
 .top-section {
     height: 500px;
     margin-top: 80px;
 
 }
+
 .half-width {
     width: 35%;
     margin-left: 9%;
     padding-left: 2%;
     float: left;
 }
+
 /* second section */
 .second-section {
     height: 500px;
     margin-top: 30px;
 }
+
 #info {
     margin-top: 50px;
 }
+
 /* show-off section */
 #work-headline {
     letter-spacing: 5px;
-    text-align: center; 
+    text-align: center;
     padding-top: 50px;
 }
+
 .show-off {
     height: 500px;
     background-color: rgb(243, 240, 240);
 }
+
 .single-show {
     width: 20%;
     float: left;
@@ -65,7 +79,38 @@ span {
     border-radius: 10px;
     background-color: white;
     box-shadow: -3px 3px 15px lightgray;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(180deg, slateblue, blue);
+    border-image-slice: 1;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
+
 .work-indentation {
-padding-left: 286px;
+    padding-left: 286px;
 }
+
+/* this is creative section for bonus marks */
+
+/* this the last section */
+
+.bottom-section {
+    height: 300px;
+    background-image: url("images/bottom-bg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+#inquiry-indent {
+    color: white;
+    display: inline;
+    margin-right: 235px;
+}
+
+.inquiry-part {
+    padding-top: 146px;
+    padding-left: 404px;
+}
+
+/* done */
