@@ -1,0 +1,71 @@
+/* common style for this website */
+body {
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+a {
+    color: white;
+    text-decoration: none;
+    box-shadow: -3px 3px 15px lightgray;
+}
+img {
+    width: 100%;
+}
+p {
+    color: grey;
+}
+h1 {
+    font-size: 50px;
+    line-height: 15px;
+}
+
+span {
+    color: slateblue;
+}
+
+/* first section */
+
+.color-highlight {
+    color: slateblue;
+}
+.top-section {
+    height: 500px;
+    margin-top: 80px;
+
+}
+.half-width {
+    width: 35%;
+    margin-left: 9%;
+    padding-left: 2%;
+    float: left;
+}
+/* second section */
+.second-section {
+    height: 500px;
+    margin-top: 30px;
+}
+#info {
+    margin-top: 50px;
+}
+/* show-off section */
+#work-headline {
+    letter-spacing: 5px;
+    text-align: center; 
+    padding-top: 50px;
+}
+.show-off {
+    height: 500px;
+    background-color: rgb(243, 240, 240);
+}
+.single-show {
+    width: 20%;
+    float: left;
+    margin: 15px 0 0 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: -3px 3px 15px lightgray;
+}
+.work-indentation {
+padding-left: 286px;
+}
